@@ -16,4 +16,4 @@ Lastly, in **reinforcement learning** we want to build models that can perform s
 
 ### Goal of this repository
 
-In this repository, we will implement one unsupervised learning algorithm from scratch - namely Gaussian Mixture Models. It can be viewed as the unsupervised version of QDA (Quadratic Discriminant Analysis) or as a generalized version of kMeans (each cluster has its own covariance matrix and we have access to information about the latent centers). In this method, data points are clustered based on their likelihood to belong to a particular distribution. 
+First, we will take the time to explain the mathematical intuition behind GMM and the EM-algorithm I used in its implementation. Afterwards, we will implement one unsupervised learning algorithm from scratch - namely Gaussian Mixture Models. GMM can be viewed as the unsupervised version of QDA (Quadratic Discriminant Analysis) or as a generalized version of kMeans (each cluster has its own covariance matrix and we have access to information about the latent centers). In this method, data points are clustered based on their likelihood to belong to a particular distribution. 
